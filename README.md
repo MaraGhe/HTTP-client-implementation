@@ -4,10 +4,10 @@ HTTP client implementation
 
 INTRODUCTION
 
-    This program implements a client that communicates with a server using the HTTP protocol. 
-    The server has been implemented by the Communication Protocols team and it provides a basic movie library that supports multiple users. 
-    The client offers a wide array of commands ranging from user accounts management by the admin to each user being able to view and change their own movie libraries.
-    The progarm uses an open-source github project called "parson" to help handle JSON objects: "https://github.com/kgabis/parson.git"
+This program implements a client that communicates with a server using the HTTP protocol. 
+The server has been implemented by the Communication Protocols team and it provides a basic movie library that supports multiple users. 
+The client offers a wide array of commands ranging from user accounts management by the admin to each user being able to view and change their own movie libraries.
+The progarm uses an open-source github project called "parson" to help handle JSON objects: "https://github.com/kgabis/parson.git"
 
 HEADER FILES
 
