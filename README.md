@@ -11,13 +11,13 @@ The progarm uses an open-source github project called "parson" to help handle JS
 
 HEADER FILES
 
-    1. The helper.h header provides wrapper functions for communicating with the server, for handling the cookies list and for extracting helpful information out of a server response, such as an error or a JWT access token.
+1. The helper.h header provides wrapper functions for communicating with the server, for handling the cookies list and for extracting helpful information out of a server response, such as an error or a JWT access token.
 
-    2. The extra functions in client.h ensure that the input data respects the format it's supposed to have. There is however a MAX_INPUT_TRIES limit to how many times invalid input can be provided, after which the application stops. This limit can be adjusted in client.h
+2. The extra functions in client.h ensure that the input data respects the format it's supposed to have. There is however a MAX_INPUT_TRIES limit to how many times invalid input can be provided, after which the application stops. This limit can be adjusted in client.h
 
-    3. In requests.h, before the command functions, it is worth pointing out:
-        - the compute_X_request() functions which create a request of type X that is ready to be sent to the server.
-        - post_json() that serves as a wrapper that executes compute_post_request then sendss the. data to the server, updates the cookies and displays either the extracted ERROR or a custom SUCCESS message 
+3. In requests.h, before the command functions, it is worth pointing out:
+    - the compute_X_request() functions which create a request of type X that is ready to be sent to the server.
+    - post_json() that serves as a wrapper that executes compute_post_request then sendss the. data to the server, updates the cookies and displays either the extracted ERROR or a custom SUCCESS message 
 
 COMMAND FUNCTIONS:
 
